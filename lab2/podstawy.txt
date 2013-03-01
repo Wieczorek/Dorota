@@ -1,0 +1,34 @@
+a)
+System kontroli wersji (ang. version/revision control system) jest to oprogramowanie s³u¿¹ce do œledzenia zmian g³ównie w kodzie Ÿród³owym oraz pomocy 
+programistom w ³¹czeniu zmian dokonanych przez wiele osób w ró¿nych momentach.
+
+b)
+Typowy sposób pracy wygl¹da nastêpuj¹co:
+1. Pliki tworzymy i modyfikujemy w katalogu roboczym.
+2. Jeœli chcemy, by zmiany zosta³y uwzglêdnione, pliki przenosimy do przechowalni.
+3. Gdy chcemy zachowaæ bie¿¹cy stan projektu w repozytorium, zatwierdzamy zmiany.
+Jeœli chcemy, mo¿emy pomin¹æ etap dodawania plików do przechowalni.
+S³u¿y do tego opcja -a operacji commit
+
+c)
+W przypadku scentralizowanych systemów plików mo¿na powiedzieæ w skrócie, ¿e u¿ytkownicy zostaj¹ zwolnieni z bezpoœredniego manipulowania urz¹dzeniami 
+przechowuj¹cymi dane. Natomiast rozproszone systemy plików pozwalaj¹ u¿ytkownikom na wygodne wykonywanie operacji plikowych nie tylko na lokalnym 
+komputerze, ale tak¿e w œrodowisku rozproszonym, gdzie dane przechowywane s¹ na wielu rozproszonych urz¹dzeniach.
+
+d)
+    init- tworzy repozytorium w katalogu, w ktorym sie znajdujemy
+    clone- utworzenie kopii istniej¹cego repozytorium
+    add- dodaje wszystkie pliki w katalogu do repozytorium
+    status- pokaze pliki ktore sie zmienily, ktore nie dodalismy jeszcze do repozytorium
+    diff- wyœwietla zmiany wprowadzone w plikach
+    commit- wykonujemy zapis aktualnej wersji projektu
+    reset- cofa do wybranego commita
+    rm- Usuwanie plików z repozytorium w sposób rekursywny. Plik kasowany jest rowniez z katalogu projektu
+    mv- zmiana nazwy pliku w repozytorium
+    branch- wyswietla wszystkie ga³êzie rozwojowe (ga³¹Ÿ na której pracujemy jest oznaczona * i zielonym kolorem)
+    checkout- prze³¹cza siê na wskazan¹ ga³¹Ÿ
+    merge-  integrowanie zmian z jednej ga³êzi do drugiej poprzez scalanie
+    log- pokazuje ostatnio wykonane commity z ga³êzi na której aktualnie pracujemy
+    stash- chwilowe pozbywanie sie pliku, przenoszenie do schowka
+    pull- pobranie plików ze zdalnego repozytorium i automatyczne wykonanie merge
+    push- wys³anie zmian na zdalny serwer
